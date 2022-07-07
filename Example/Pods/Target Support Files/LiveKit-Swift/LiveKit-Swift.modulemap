@@ -1,0 +1,6 @@
+framework module LiveKit_Swift {
+  umbrella header "LiveKit-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

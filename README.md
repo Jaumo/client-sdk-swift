@@ -1,3 +1,7 @@
+# SourceCode changes required to made LiveKit into a pod
+
+The swift-collections library is not available as a pod, so we are including it manually in the codebase. This also means that we have to get rid of the import statemets for collections in LiveKit source code - because they are no longer a separate module.
+
 # iOS/macOS Swift SDK for LiveKit
 
 Official Client SDK for [LiveKit](https://github.com/livekit/livekit-server).
